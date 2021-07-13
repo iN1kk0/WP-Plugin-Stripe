@@ -1,0 +1,142 @@
+#thankyou {
+    display: none;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#payment-form input {
+    margin: 5px 0;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: gray !important;
+    font-size: 14px !important;
+}
+
+#card-element {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+#submit {
+    border-radius: 3px;
+}
+
+#payment-form label {
+    display: block;
+    margin: 15px 0 0;
+}
+
+.report_block label {
+    width: 49%;
+    float: left;
+    margin-top: 0 !important;
+}
+
+.report_block label[for=first_name] {
+    margin-right: 2% !important;
+}
+
+#payment-form h2, #payment-form h3 {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+#payment-form h2 {
+    font-size: 24px;
+}
+
+#payment-form h3 {
+    font-size: 20px;
+}
+
+input#quantity {
+    width: 60px;
+    border-radius: 20px;
+}
+
+input#quantity::-webkit-inner-spin-button,
+input#quantity::-webkit-outer-spin-button {
+    /*opacity: 1;
+    -webkit-appearance: inner-spin-button;*/
+    opacity: 0;
+    display: none;
+}
+
+#payment-form {
+    margin: 40px auto;
+    display: block;
+}
+
+
+.plus-minus-input {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.plus-minus-input .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+}
+
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.plus-minus-input .input-group-button .circle {
+    border-radius: 50%;
+    padding: 0.25em 0.8em;
+}
+
+.input-group-button, #quantity {
+    display: inline-block;
+}
+
+.privacy-form-text {
+    font-size: 14px !important;
+    margin: 20px auto 0;
+    text-align: center;
+    line-height: 20px !important;
+}
+
+#payment-form #submit {
+    margin-top: 20px;
+}
+
+.payment-form-block {
+    max-width: 1240px;
+}
+
+@media screen and (max-width: 767px) {
+    .report_block label {
+        width: 100% !important;
+        float: none;
+        margin: 5px 0 0 !important;
+    }
+
+    form#payment-form {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        margin: 20px auto !important;
+        padding: 20px !important;
+    }
+
+    #payment-form h2 {
+        font-size: 24px !important;
+        line-height: 26px !important;
+    }
+
+    #payment-form h3 {
+        font-size: 20px !important;
+        line-height: 22px !important;
+    }
+}
